@@ -1,2 +1,5 @@
 # XADC-Demo
-Designing and implementation of Voltage control using XADC of Nexys4 DDR board in Verilog
+DESIGN & IMPLEMENATION OF HARWARE INTERFACE TO XADC USING FPGA NEXYS 4DDR BOARD
+
+In this project I  have utilized the XADC IP core which is embedded into Nexys 4 DDR board of Xilinx. XADC cab be operated in two modes unipolar & bipolar. I have used in XADC in unipolar mode & have divided the entire Verilog codes into small chunks depicting each its own important function and later they all are instantiated into the main XADC file. I have designed Verilog files separately for seven segment decoder, four-bit-Mux, Counter, segment clock driver & XADC IP core itself. An external voltage is applied to the XADC pins via function generator which turned on LEDS in increment manner from right to left as the voltage varies from the external source (Battery+pot/ function generator)
+The pre-requisites for a task to be successfully completed are constant inspiration, guidance and good working environment. Fortunately all the above requirements were satisfied at Digital Signal Processing Lab , where I carried out my project work. I feel privileged to express my heartiest thanks and gratitude to guide Dr. Safeer Hyder, Assistant Professor, Sukkur IBA university for providing me the time, resources and invaluable guidance and encouragement throughout the whole work.
